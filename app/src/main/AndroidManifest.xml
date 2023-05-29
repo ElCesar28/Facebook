@@ -44,7 +44,7 @@
                 <data android:scheme="@string/fb_login_protocol_scheme" />
             </intent-filter>
         </activity>
-        <provider android:authorities="com.facebook.app.FacebookContentProvider988695245480125"
+        <provider android:authorities="com.facebook.app.FacebookContentProvider779225523659293"
             android:name="com.facebook.FacebookContentProvider"
             android:exported="true"/>
 

@@ -67,7 +67,7 @@ class MainActivity : AppCompatActivity() {
         }
         btnlink.setOnClickListener {
             val content: ShareLinkContent = ShareLinkContent.Builder()
-                .setContentUrl(Uri.parse("https://github.com/ElCesar28"))
+                .setContentUrl(Uri.parse("https://github.com/AngelMelecio"))
                 .build()
             if (ShareDialog.canShow(ShareLinkContent::class.java)){
                 shareDialog!!.show(content)
